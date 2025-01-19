@@ -8,5 +8,7 @@ int main()
 	int lor = 2;
 	int lor = 4;
 
+	bool tea;
+
 	return 0;
 }
