@@ -2,19 +2,21 @@
 
 int main()
 {
-	std::string password;
-	std::string Correctpassword = "Password123";
+	char character;
+	char lowercase_character;
 
-	std::cout << "Enter a password: ";
-	std::cin >> password;
+	std::cout << "Enter a character: ";
+	std::cin >> character;
 
-	if (password == Correctpassword)
+	lowercase_character = tolower(character);
+
+	if (character == lowercase_character)
 	{
-		std::cout << "Access granted!";
+		std::cout << "Lower Case!";
 	}
 	else
 	{
-		std::cout << "Access denied!";
+		std::cout << "Non Lower Case!";
 	}
 
 	return 0;
