@@ -2,13 +2,19 @@
 
 int main()
 {
-	std::cout << "Hello World!\n";
-	std::cout << "Hello World!\n";
+	int number;
 
-	int lor = 2;
-	int lor = 4;
+	std::cout << "Enter a number: ";
+	std::cin >> number;
 
-	bool tea;
+	if (number % 3 == 0 && number % 7 == 0)
+	{
+		std::cout << "It's divisible!";
+	}
+	else
+	{
+		std::cout << "It's not divisible!";
+	}
 
 	return 0;
 }
